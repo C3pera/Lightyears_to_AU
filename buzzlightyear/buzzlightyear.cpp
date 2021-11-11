@@ -1,16 +1,17 @@
 ﻿#include <iostream>
 
 double convert(double);
+
 using namespace std;
 
 int main()
 {
     double au, lu;
-    cout << "Введите количество световых лет: ";
+    cout << "Enter the number of light years: ";
     cin >> lu;
     au = convert(lu);
-    cout << lu << " Световых лет = ";
-    cout << au << " астрономических едениц" << endl;
+    cout << lu << " light years = ";
+    cout << au << " astronomical units" << endl;
     return 0;
 }
 
